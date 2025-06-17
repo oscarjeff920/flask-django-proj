@@ -1,10 +1,23 @@
 # Python-generated files
+*.pyc
+*.pyo
+*.pyd
+.Python
 __pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
+django_app/venv_django
+flask_api/venv_flask
+.pytest_cache/
+.mypy_cache/
+*.swp
+.idea
+.env
+
 
 # Virtual environments
 .venv
+

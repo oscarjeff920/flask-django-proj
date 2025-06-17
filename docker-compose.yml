@@ -1,0 +1,8 @@
+# docker-compose.yml
+version: '3.8' # Specify the Docker Compose file format version
+
+services:
+  web:
+    build: 
+      context: ./django_flask
+    command: python manage.py run
