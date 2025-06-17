@@ -16,6 +16,7 @@ flask_api/venv_flask
 *.swp
 .idea
 .env
+.venv_tools
 
 
 # Virtual environments
